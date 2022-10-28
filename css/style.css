@@ -7,6 +7,9 @@ body {
   background-color: #BDBDBD;
   color: #757575;
 }
+body .container {
+  padding: 0;
+}
 body .navbar {
   border: 1px solid #212121;
   padding: 0.3rem 5rem;
@@ -24,11 +27,9 @@ body .navbar .navbar-nav li > a.nav-link.active {
   color: green;
 }
 body header {
-  background-image: url(/img/header.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("/img/header.png") center center no-repeat;
   background-size: cover;
-  padding: 20rem 3rem;
+  padding: 15rem 3rem;
 }
 body header p {
   color: gray;
@@ -76,8 +77,123 @@ body .btn {
   border-radius: 0.5rem;
   font-size: 0.8em;
   padding: 1rem;
+  transition: all 0.7s;
 }
 body .btn:hover {
   background-color: green;
   color: white;
+}
+body .btn-inverse {
+  border: 2px solid green;
+  background-color: transparent;
+  color: green;
+  border-radius: 0.5rem;
+  font-size: 0.8em;
+  padding: 1rem;
+  transition: all 0.7s;
+}
+body .btn-inverse:hover {
+  background-color: green;
+  color: white;
+}
+body .title {
+  overflow: hidden;
+  text-align: center;
+}
+body .title h4 {
+  display: inline-block;
+  vertical-align: middle;
+  color: green;
+  font-weight: bold;
+  margin: 4rem 0;
+  padding: 2rem;
+  font-size: 1.5em;
+}
+body .title::before, body .title::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  height: 1rem;
+  background-color: gray;
+  position: relative;
+  opacity: 1;
+}
+body .title::before {
+  margin: 0 0 0 -100%;
+  left: 1.5rem;
+}
+body .title::after {
+  margin: 0 -100% 0 0;
+  right: 1.5rem;
+}
+body .popcat {
+  background: url("/img/background.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 0 0 4rem 0;
+}
+body .popcat a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+body .popcat a p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: black;
+  text-shadow: 0 0 3px green;
+  font-size: 1.4em;
+  z-index: 110;
+  transition: all 1s;
+  position: absolute;
+}
+body .popcat a img {
+  transition: all 1s;
+}
+body .popcat a:hover img {
+  background-color: green;
+  transform: scale(1.1);
+}
+body .adv {
+  color: green;
+  background: url("/img/adv.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body .adv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(left, green 0%, rgb(40, 167, 40) 50%, rgb(16, 231, 16) 100%);
+  opacity: 0.6;
+}
+body .adv .row {
+  padding: 3rem 0;
+}
+body .adv h6 {
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 1em;
+}
+body .adv p {
+  font-size: 0 0.7em;
+  padding: 0.2em 0.3em;
+}
+body .popgoods {
+  background: url("/img/background.jpg") center center no-repeat;
+  background-size: cover;
+}
+body .popgoods .row {
+  padding: 0 0 3rem 0;
+}
+body .popgoods .row:first-child {
+  padding: 0;
+}
+body .popgoods h6 {
+  font-size: 1.3em;
 }/*# sourceMappingURL=style.css.map */
