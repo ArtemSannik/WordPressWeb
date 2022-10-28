@@ -11,6 +11,19 @@ body {
     font-size: 16px;
     background-color: #BDBDBD;
     color: #757575;
+    input{
+        &::-webkit-input-placeholder {
+            color: green;
+        }
+
+        &::-moz-input-placeholder {
+            color: green;
+        }
+
+        &::-ms-input-placeholder {
+            color: green;
+        }
+    }
 
     .container{
         padding: 0;
@@ -82,17 +95,6 @@ body {
                 margin: 1.5rem 0 1.5rem 0;
                 border-radius: 0.5rem;
 
-                &::-webkit-input-placeholder {
-                    color: green;
-                }
-
-                &::-moz-input-placeholder {
-                    color: green;
-                }
-
-                &::-ms-input-placeholder {
-                    color: green;
-                }
 
             }
 
@@ -202,7 +204,7 @@ body {
     }
     
     .adv{
-        color:green;
+        
         @include bg-img("/img/adv.jpg");
         position: relative;
         &::before{
@@ -229,6 +231,7 @@ body {
             padding: .2em .3em;
         }
     }
+
     .popgoods{
     @include bg-img("/img/background.jpg");
     .row{
@@ -241,4 +244,38 @@ body {
         font-size: 1.3em;
     }
     }
+    .form_zamer{
+   
+    @include bg-img("/img/fiedback.png");
+    }
+    .row{
+        padding: 3rem 0;
+    }
+    h5{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    h6{
+        font-size: 1em;
+    }
+    p{
+        font-size: 1em;
+    }
+    img{
+        margin: 0 0 1.5rem 0;
+        transition: all 0.5s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    input{
+        width: 100%;
+        padding: 1rem;
+        background: transparent;
+        border: 2px solid green;
+        border-radius: 10px;
+        margin: 0 0 1rem 0;
+        
+    }
+
 }
