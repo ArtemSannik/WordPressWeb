@@ -238,4 +238,20 @@ body .reviews .card {
 }
 body .reviews h4 {
   font-size: 1.5em;
+}
+body footer {
+  background-color: rgba(250, 250, 250, 0.768627451);
+  border: 1px solid black;
+}
+body footer li.nav-item > a.nav-link {
+  color: rgb(31, 29, 29);
+}
+body footer li.nav-item > a.nav-link:hover {
+  color: green;
+}
+body footer li > a.nav-link.active {
+  color: green;
+}
+body footer span {
+  color: green;
 }/*# sourceMappingURL=style.css.map */

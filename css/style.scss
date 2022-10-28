@@ -292,4 +292,27 @@ body {
     }
     
 }
+    footer{
+        background-color: #fafafac4;
+        border: 1px solid black;
+
+        li.nav-item>a.nav-link {
+            color: rgb(31, 29, 29);
+
+            &:hover {
+                color: green;
+
+            }
+        }
+        
+        li>a.nav-link.active {
+            color: green;
+        }
+
+    
+        
+        span{
+            color:green;
+        }
+    }
 }
