@@ -1,3 +1,5 @@
+@import 'media';
+
 @mixin bg-img($src){
     background: url($src) center center no-repeat;
     background-size: cover;
