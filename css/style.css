@@ -200,31 +200,42 @@ body .form_zamer {
   background: url("/img/fiedback.png") center center no-repeat;
   background-size: cover;
 }
-body .row {
+body .form_zamer .row {
   padding: 3rem 0;
 }
-body h5 {
+body .form_zamer h5 {
   font-size: 1.2em;
   font-weight: bold;
 }
-body h6 {
+body .form_zamer h6 {
   font-size: 1em;
 }
-body p {
+body .form_zamer p {
   font-size: 1em;
 }
-body img {
+body .form_zamer img {
   margin: 0 0 1.5rem 0;
   transition: all 0.5s;
 }
-body img:hover {
+body .form_zamer img:hover {
   transform: scale(1.2);
 }
-body input {
+body .form_zamer input {
   width: 100%;
   padding: 1rem;
   background: transparent;
   border: 2px solid green;
   border-radius: 10px;
   margin: 0 0 1rem 0;
+}
+body .reviews {
+  padding: 0 0 3rem 0;
+  background: url("/img/background.jpg") center center no-repeat;
+  background-size: cover;
+}
+body .reviews .card {
+  height: 10em;
+}
+body .reviews h4 {
+  font-size: 1.5em;
 }/*# sourceMappingURL=style.css.map */
