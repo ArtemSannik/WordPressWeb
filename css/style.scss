@@ -1,0 +1,96 @@
+html{
+    font-size: 10px;
+}
+body{
+  font-size: 16px;  
+  background-color: #BDBDBD;
+  color: #757575;
+
+    .navbar {
+        border: 1px solid #212121;
+        padding: 0.3rem 5rem;
+
+        .number_phone {
+            color:green;
+        }
+
+        .navbar-nav {
+
+        li.nav-item > a.nav-link{
+            color: rgb(31, 29, 29);
+            &:hover{
+                color:green;
+
+            }
+        }
+
+        li > a.nav-link.active{
+            color:green;
+        }
+
+    }
+
+}
+
+    header{
+        background-image: url(/img/header.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20rem 3rem;
+        p{
+            color: gray;
+        }
+        h4{
+            font-size: 2em;
+            font-weight: bold;
+            span{
+                color:green;
+            }
+        }
+        form{
+            border: 1rem double white;
+            div{
+            background: rgba($color: #ccc6c6b7, $alpha: 0.95);
+            padding: 1.5rem;
+            }
+            span{
+                color:green;
+                font-weight: bold;
+                font-size: 1em;
+            }
+            input{
+                width: 100%;
+                padding: 1rem;
+                border-color: transparent;
+                border: 2px solid green;
+                margin: 1.5rem 0 1.5rem 0;
+                border-radius: 0.5rem;
+                &::-webkit-input-placeholder{
+                    color: green;
+                }
+                &::-moz-input-placeholder{
+                    color: green;
+                }
+                &::-ms-input-placeholder{
+                    color: green;
+                }
+
+            }
+            
+        }
+        
+    }
+    .btn{
+        border: 2px solid green;
+        background-color: transparent;
+        color:green;
+        border-radius: .5rem;
+        font-size: .8em;
+        padding: 1rem;
+        &:hover{
+            background-color: green;
+            color: white;
+        }
+    }
+}

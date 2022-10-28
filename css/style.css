@@ -1,1 +1,83 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+  background-color: #BDBDBD;
+  color: #757575;
+}
+body .navbar {
+  border: 1px solid #212121;
+  padding: 0.3rem 5rem;
+}
+body .navbar .number_phone {
+  color: green;
+}
+body .navbar .navbar-nav li.nav-item > a.nav-link {
+  color: rgb(31, 29, 29);
+}
+body .navbar .navbar-nav li.nav-item > a.nav-link:hover {
+  color: green;
+}
+body .navbar .navbar-nav li > a.nav-link.active {
+  color: green;
+}
+body header {
+  background-image: url(/img/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem 3rem;
+}
+body header p {
+  color: gray;
+}
+body header h4 {
+  font-size: 2em;
+  font-weight: bold;
+}
+body header h4 span {
+  color: green;
+}
+body header form {
+  border: 1rem double white;
+}
+body header form div {
+  background: rgba(204, 198, 198, 0.95);
+  padding: 1.5rem;
+}
+body header form span {
+  color: green;
+  font-weight: bold;
+  font-size: 1em;
+}
+body header form input {
+  width: 100%;
+  padding: 1rem;
+  border-color: transparent;
+  border: 2px solid green;
+  margin: 1.5rem 0 1.5rem 0;
+  border-radius: 0.5rem;
+}
+body header form input::-webkit-input-placeholder {
+  color: green;
+}
+body header form input::-moz-input-placeholder {
+  color: green;
+}
+body header form input::-ms-input-placeholder {
+  color: green;
+}
+body .btn {
+  border: 2px solid green;
+  background-color: transparent;
+  color: green;
+  border-radius: 0.5rem;
+  font-size: 0.8em;
+  padding: 1rem;
+}
+body .btn:hover {
+  background-color: green;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
